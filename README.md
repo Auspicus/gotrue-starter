@@ -13,7 +13,14 @@ Installation is straightforward. Simply run the setup.sh bash file and the lates
 sh setup.sh
 ```
 
-You will now want to configure your environment variables. This can be done in `/.env`. After setting these up you should be ready to go. To start the containers run:
+You will now want to configure your environment variables. This can be done in `example.env`. After setting these up you will want to rename the file to `.env` so it is picked up by Docker Compose. This can be done with the following command:
+
+```bash
+mv example.env .env
+```
+
+
+To start the containers run:
 
 ```bash
 docker-compose up -d
