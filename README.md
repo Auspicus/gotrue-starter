@@ -13,7 +13,7 @@ Installation is straightforward. Simply run the setup.sh bash file and the lates
 sh setup.sh
 ```
 
-You will now want to configure your environment variables. This can be done in `/app/.env`. After setting these up your should be ready to go. To start the containers run:
+You will now want to configure your environment variables. This can be done in `/.env`. After setting these up you should be ready to go. To start the containers run:
 
 ```bash
 docker-compose up -d
